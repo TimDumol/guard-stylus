@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.homepage    =
     'https://github.com/TimDumol/guard-stylus'
   s.licenses    = ['Apache 2.0']
-  s.add_runtime_dependency 'guard', '~> 1.7.0'
+  s.add_runtime_dependency 'guard', '~> 1.8.0'
   s.add_runtime_dependency 'stylus', '~> 0.7.1'
   s.add_runtime_dependency 'guard-helpers', '~> 0.0.3'
 end
