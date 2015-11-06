@@ -1,12 +1,10 @@
-require 'guard'
-require 'guard/guard'
-require 'guard/watcher'
+require 'guard/compat/plugin'
 require 'guard/helpers/starter'
 require 'guard/helpers/formatter'
 require 'stylus'
 
 module Guard
-  class Stylus < Guard
+  class Stylus < Plugin
     include ::Guard::Helpers::Starter
     def target_filename(directory, file)
       File.join(directory, File.basename(file).sub(/(\.css)?\.styl$/, '.css'))
