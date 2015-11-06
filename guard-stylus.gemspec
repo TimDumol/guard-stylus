@@ -13,4 +13,5 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'guard', '~> 1.8.0'
   s.add_runtime_dependency 'stylus', '~> 0.7.1'
   s.add_runtime_dependency 'guard-helpers', '~> 0.0.3'
+  s.add_runtime_dependency 'guard-compat'
 end
